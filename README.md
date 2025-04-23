@@ -76,12 +76,25 @@ trong đó bao gốm các bảng
 ![image](https://github.com/user-attachments/assets/d0dec388-84f7-45fe-91c3-567ab006d0d4)
 ![image](https://github.com/user-attachments/assets/36172280-0af6-4d7a-a005-d471e797e8f3)
 ![image](https://github.com/user-attachments/assets/f90da70e-e456-45c1-b83a-b54a898feec4)
-  Tiếp theo là thêm trường phi chuẩn XepLoai vào bảng Ketqua và viết tringger test bảng này với trường XepLoai
+  Tiếp theo là thêm trường phi chuẩn XepLoai vào bảng Ketqua và viết tringger test bảng này với trường XepLoai mục tiêu của việc này là phân loại được học viên có đạt chứng chỉ b1 hay không và đang ở trình độ nào
 nếu Diemthi>=6.5 thì XepLoai sẽ là Đạt và ngược lại
 ![image](https://github.com/user-attachments/assets/3000cf7f-8418-4fea-b917-e07527246dc1)
 Nhập dữ liệu và test thử 
 
 ![image](https://github.com/user-attachments/assets/98ac4b5a-ee1b-4069-ad17-a6f791d20396)
+Trong đồ án quản lý học viên tại trung tâm ngoại ngữ, trigger có thể được sử dụng để tự động hóa nhiều tác vụ quan trọng, ví dụ:
+ * Tự động cập nhật thông tin liên quan khi có sự thay đổi:
+   * Khi một học viên đăng ký một khóa học mới, trigger có thể tự động cập nhật số lượng học viên trong khóa học đó.
+   * Khi thông tin cá nhân của học viên (ví dụ: số điện thoại, địa chỉ) được cập nhật, trigger có thể tự động cập nhật thông tin này ở tất cả các bảng liên quan
+ * Đảm bảo tính toàn vẹn dữ liệu:
+   * Khi một học viên bị xóa khỏi hệ thống, trigger có thể tự động xóa tất cả các bản ghi liên quan đến học viên đó trong các bảng khác 
+   * Trigger có thể được sử dụng để kiểm tra các ràng buộc phức tạp hơn mà các ràng buộc thông thường (ví dụ: NOT NULL, UNIQUE) không thể xử lý. Ví dụ, đảm bảo rằng một học viên không thể đăng ký hai khóa học trùng lịch.
+ * Tự động ghi log (nhật ký) các hoạt động quan trọng:
+   * Khi có một học viên mới được thêm vào, một khóa học được tạo, hoặc một khoản thanh toán được thực hiện, trigger có thể tự động ghi lại thời gian, người thực hiện và chi tiết của hành động này vào một bảng nhật ký. Điều này giúp theo dõi lịch sử hoạt động của hệ thống và hỗ trợ việc kiểm tra, bảo trì sau này.
+ * Tự động thực hiện các nghiệp vụ khác:
+   * Khi học viên hoàn thành một khóa học, trigger có thể tự động cập nhật trạng thái học viên và có thể gửi thông báo (ví dụ: email) về việc hoàn thành khóa học.
+   
+
 
 
 
