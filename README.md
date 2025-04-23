@@ -61,3 +61,32 @@ p/s:
    BÀI LÀM
    Đề bài đồ án Quản lý học viên tại trung tâm ngoại ngữ ETC
    yêu cầu của bài toán:
+-Khảo sát, phân tích hiện trạng của hệ thông quản lý học viên tại trung tâm ngoại ngữ etc
+-Phân tích hệ thống thông tin quản lý học viên tại trung tâm ngoại ngữ etc
+-Phân tích hệ thống quản lý học viên tại trung tâm ngoại ngữ etc
+    Xây dựng các biểu đồ usecase ,tuần tự,trạng thái ,hoạt động
+-Xây dựng các tệp cơ sở dữ liệu.
+-Thiết kế chương trình
+ Trước hết cần tạo database QLHV
+trong đó bao gốm các bảng
+![image](https://github.com/user-attachments/assets/86896611-ea0a-4e87-9fc9-52b309abdb88)
+![image](https://github.com/user-attachments/assets/f2f678f3-b04b-4c86-9e66-856b18b68ba4
+![image](https://github.com/user-attachments/assets/f7a26dd3-37d7-4690-95f4-115f88b2453e)
+![image](https://github.com/user-attachments/assets/7d4f64ce-f0ed-42c4-b104-6390183ba62e)
+![image](https://github.com/user-attachments/assets/d0dec388-84f7-45fe-91c3-567ab006d0d4)
+![image](https://github.com/user-attachments/assets/36172280-0af6-4d7a-a005-d471e797e8f3)
+![image](https://github.com/user-attachments/assets/f90da70e-e456-45c1-b83a-b54a898feec4)
+  Tiếp theo là thêm trường phi chuẩn XepLoai vào bảng Ketqua và viết tringger test bảng này với trường XepLoai
+nếu Diemthi>=6.5 thì XepLoai sẽ là Đạt và ngược lại
+![image](https://github.com/user-attachments/assets/3000cf7f-8418-4fea-b917-e07527246dc1)
+Nhập dữ liệu và test thử 
+
+![image](https://github.com/user-attachments/assets/98ac4b5a-ee1b-4069-ad17-a6f791d20396)
+
+
+
+
+
+
+
+
